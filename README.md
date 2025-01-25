@@ -1,8 +1,4 @@
-Here’s a customized version of the GitHub README file based on your program list:
-
----
-
-# 🖥️ C-language Repository  
+🖥️ C-language Repository  
 
 Welcome to the **C-language** repository! This repository contains a collection of beginner-friendly 
 C programs designed to help you understand the basics of C programming. Each program focuses on a specific concept, 
@@ -10,7 +6,7 @@ covering fundamental topics, conditional statements, loops, functions, arrays, p
 
 ---
 
-## 📚 List of Programs  
+📚 List of Programs  
 
 Here’s the complete list of programs included in this repository:
 
@@ -55,7 +51,7 @@ Here’s the complete list of programs included in this repository:
 
 ---
 
-## 🚀 Getting Started  
+🚀 Getting Started  
 
 1. **Clone this repository**:  
    ```bash
@@ -74,7 +70,7 @@ Here’s the complete list of programs included in this repository:
 
 ---
 
-## 🌟 Features  
+🌟 Features  
 
 - Comprehensive list of beginner-level C programs.  
 - Code is well-commented for easy understanding.  
@@ -82,13 +78,13 @@ Here’s the complete list of programs included in this repository:
 
 ---
 
-## 🤝 Contributing  
+🤝 Contributing  
 
 Contributions are welcome! If you'd like to add more programs or improve existing ones, feel free to submit a pull request.  
 
 ---
 
-## 📜 License  
+📜 License  
 
 This project is licensed under the [MIT License](LICENSE).  
 
@@ -102,7 +98,3 @@ For questions or suggestions, reach out to:
 ---
 
 Happy Coding! 🎉  
-
----
-
-Would you like help with adding detailed descriptions for any specific program or making further edits?
