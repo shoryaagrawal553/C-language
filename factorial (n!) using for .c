@@ -2,12 +2,12 @@
 #include <stdio.h>
 int main()
 {
-    int i, n, f=1;
-    printf("Enter a no.: ");
-    scanf("%d", &n);
-    for(i=1; i<=n; i++)
+    int i, num, f=1;
+    printf("Enter a Number.: ");
+    scanf("%d", &num);
+    for(i=1; i<=num; i++)
     {
         f=f*i;
     }
-    printf("\n%d! = %d", n, f);
+    printf("\n%d! = %d", num, f);
 }
