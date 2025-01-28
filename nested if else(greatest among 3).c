@@ -8,23 +8,23 @@ int main()
     {
         if(a > c)
         {
-            printf("A is the greatest no.");
+            printf("A is the greatest number: ");
         }
         else
         {
             if(c > a)
             {
-              printf("C is the greatest no.");  
+              printf("C is the greatest number :");  
             }
             else 
             {
                 if(c > b)
         {
-            printf("C is the greatest no.");
+            printf("C is the greatest number: ");
         }
         else
         {
-            printf("B is the greatest no.");
+            printf("B is the greatest number: ");
         }
             }
         }
