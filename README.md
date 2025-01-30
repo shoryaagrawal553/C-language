@@ -55,7 +55,7 @@ Here’s the complete list of programs included in this repository:
 
 1. **Clone this repository**:  
    ```bash
-   git clone https://github.com/shoryaagrawal553/C-language.git
+   https://github.com/shoryaagrawal553/C-language.git
    ```
 2. **Navigate to the directory**:  
    ```bash
