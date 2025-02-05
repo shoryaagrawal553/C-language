@@ -1,15 +1,25 @@
-# include<stdio.h>
+#include<stdio.h>
+
 int main()
 {
-   float a, b;
-   printf("Enter two no. ");
-   scanf("%f%f", &a, &b);
-   if (a % b == 0)
-  {
-      printf("remainder is 2");
-  }
-  else
-  {
-      printf("remainder isn't 2");
-  }
+    // Variable declarations
+    float a, b;
+
+    // Input two numbers from the user
+    printf("Enter two numbers: ");
+    scanf("%f%f", &a, &b);
+
+    // Check if the first number is divisible by the second number
+    if (a % b == 0)
+    {
+        // If the remainder is 0, print that the remainder is 2 (likely an error in original code)
+        printf("remainder is 2");
+    }
+    else
+    {
+        // If the remainder is not 0, print that the remainder isn't 2
+        printf("remainder isn't 2");
+    }
+
+    return 0;
 }
