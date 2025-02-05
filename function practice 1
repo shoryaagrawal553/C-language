@@ -1,17 +1,25 @@
 #include <stdio.h>
-void hello(); //function prototype or declaring / telling compiler here exists a function
-void gb(); // also called function declaration
+
+// Function prototypes (declarations)
+void hello(); // Declaring the hello function
+void gb(); // Declaring the gb function
+
 int main()
 {
-   hello(); // function calling
-   gb(); // this too
-}
-void hello() // defining function
-{
-    printf("\nHELLO!");
-}
-void gb() // defining function
-{
-    printf("\nGood Bye!!!!!");
+    // Function calls
+    hello(); // Calling the hello function
+    gb(); // Calling the gb function
+
+    return 0; // Return statement indicating successful execution
 }
 
+// Function definitions
+void hello() // Defining the hello function
+{
+    printf("\nHELLO!"); // Print HELLO!
+}
+
+void gb() // Defining the gb function
+{
+    printf("\nGood Bye!!!!!"); // Print Good Bye!!!!!
+}
