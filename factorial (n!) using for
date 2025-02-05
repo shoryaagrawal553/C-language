@@ -1,13 +1,25 @@
-//factorial n! / 5!=5*4*3*2*1= 120
+// Factorial calculation using a for loop
+// Example: 5! = 5 * 4 * 3 * 2 * 1 = 120
+
 #include <stdio.h>
+
 int main()
 {
-    int i, num, f=1;
-    printf("Enter a Number.: ");
+    // Variable declarations
+    int i, num, f = 1;
+
+    // Input the number from the user
+    printf("Enter a Number: ");
     scanf("%d", &num);
-    for(i=1; i<=num; i++)
+
+    // Calculate factorial using a for loop
+    for(i = 1; i <= num; i++)
     {
-        f=f*i;
+        f = f * i;  // Multiply current value of f by i
     }
+
+    // Output the factorial of the number
     printf("\n%d! = %d", num, f);
+
+    return 0;
 }
