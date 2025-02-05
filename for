@@ -1,12 +1,20 @@
 #include <stdio.h>
+
 int main()
 {
-    //for (looping)
-    int n,i;
+    // Variable declarations
+    int n, i;
+
+    // Input the number of times to print "Hello World" from the user
     printf("Enter how many times you want it: ");
-    scanf("%d",&n);
-    for(i=1;i<=n;i++)
+    scanf("%d", &n);
+
+    // Loop from 1 to n
+    for(i = 1; i <= n; i++)
     {
-    printf("\nHello World");
+        // Print "Hello World" in each iteration
+        printf("\nHello World");
     }
+
+    return 0;
 }
