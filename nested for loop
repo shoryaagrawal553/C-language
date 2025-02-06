@@ -1,15 +1,24 @@
 #include<stdio.h>
+
 int main()
 {
+    // Declare variables
     int n, i, j;
+    
+    // Ask the user to enter a number
     printf("Enter a number\n");
     scanf("%d", &n);
-    for(i=1; i<=n; i++)  // its for rows
+    
+    // Outer loop for rows
+    for(i=1; i<=n; i++)
     {
-        for(j=1; j<=i; j++)  //its for columns
+        // Inner loop for columns
+        for(j=1; j<=i; j++)
         {
-        printf("* ");
+            // Print asterisk
+            printf("* ");
         }
+        // Move to the next line after each row
         printf("\n");
     }
 }
