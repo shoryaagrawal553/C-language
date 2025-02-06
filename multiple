@@ -2,15 +2,15 @@
 
 int main()
 {
-    // variable declarations
+    // Variable declarations
     int a, b, temp, E, H, M, S, total, choice;
     float per;
 
-    // prompt the user for a choice
+    // Prompt the user for a choice
     printf("Enter your choice \n1. Greatest among two numbers \n2. Marksheet \n3. Swapping using third variable \n ");
     scanf("%d", &choice);
 
-    // switch-case to handle choices
+    // Switch-case to handle choices
     switch(choice)
     {
         case 1:
