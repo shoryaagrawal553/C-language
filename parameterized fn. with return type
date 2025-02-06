@@ -1,15 +1,29 @@
 #include<stdio.h>
+
+// Function declaration
 int addition(int, int);
+
 int main()
 {
+    // Declare variables to store the input numbers and the sum
     int a, b, sum;
-    printf("Enter two no ");
+    
+    // Prompt the user to enter two numbers
+    printf("Enter two numbers: ");
     scanf("%d%d", &a, &b);
-    sum = addition (a, b);
+    
+    // Call the addition function and store the result in sum
+    sum = addition(a, b);
+    
+    // Print the sum
     printf("\nSum = %d", sum);
+    
+    return 0; // Return 0 to indicate successful execution
 }
-int addition (int a, int b)
+
+// Function to add two numbers and return the result
+int addition(int a, int b)
 {
-    //printf("\n sum = %d", a + b);
+    // Return the sum of a and b
     return(a + b);
 }
