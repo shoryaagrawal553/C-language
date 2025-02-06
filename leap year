@@ -1,10 +1,15 @@
 #include <stdio.h>
+
 int main()
 {
-    int year;//this is year
+    int year; // Declare variable to store the year
+    
+    // Ask the user to enter the year
     printf("Enter the Year ");
     scanf("%d", &year);
-    if(year%4==0)
+    
+    // Check if the year is a leap year
+    if(year % 4 == 0)
     {
         printf("\nIt is a leap year");
     }
