@@ -1,25 +1,36 @@
 #include <stdio.h>
+
 int main()
 {
+    // Declare variables
     int a[1000], n, i, step, temp;
+    
+    // Ask the user for the number of elements
     printf("Enter how many elements you want ");
     scanf("%d", &n);
+    
+    // Get the elements from the user
     for(i=0; i<n; i++)
     {
-        printf("\nEnter the elment for a[%d] ", i);
+        printf("\nEnter the element for a[%d] ", i);
         scanf("%d", &a[i]);
     }
+    
+    // Sort the array using bubble sort
     for(step=0; step<n-1; step++)
     {
         for(i=0; i<n-1-step; i++)
         {
             if(a[i]>a[i+1])
             {
+                // Swap the elements
                 temp = a[i];
                 a[i] = a[i+1];
                 a[i+1] = temp;
             }
         }
     }
+    
+    // Print the greatest number
     printf("\nThe greatest number is %d", a[n-1]);
 }
