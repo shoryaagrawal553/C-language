@@ -1,20 +1,30 @@
 #include <stdio.h>
+
 int main()
 {
+    // Declare variables for marks in different subjects and total marks
     int H, E, M, S, total;
-    float per;
-    printf("Enter marks of hindi");
+    float per; // Declare variable for percentage
+    
+    // Prompt the user to enter marks for each subject
+    printf("Enter marks of Hindi");
     scanf("%d", &H);
-    printf("Enter marks of Enlish");
+    printf("Enter marks of English");
     scanf("%d", &E);
     printf("Enter marks of Maths");
     scanf("%d", &M);
-    printf("Enter marks of science");
+    printf("Enter marks of Science");
     scanf("%d", &S);
+    
+    // Calculate total marks
     total = H + E + M + S;
-    printf("\ntotal marks out of 400 is %d", total);
+    printf("\nTotal marks out of 400 is %d", total);
+    
+    // Calculate percentage
     per = (total * 100) / 400;
-    printf("\n Percentage is %.2f", per);
+    printf("\nPercentage is %.2f", per);
+    
+    // Determine and print division based on percentage
     if(per > 75)
     {
         printf("\nPassed with I div honours");
@@ -29,32 +39,22 @@ int main()
         {
             if(per > 45 && per <= 60 )
             {
-             printf("\nPassed with II div");   
+                printf("\nPassed with II div");
             }
             else
             {
                 if(per > 33 && per <= 45 )
                 {
-                 printf("\nPassed with III div");   
+                    printf("\nPassed with III div");
                 }
                 else
                 {
                     if(per <= 33)
                     {
-                    printf("\nFailed");
+                        printf("\nFailed");
                     }
                 }
             }
         }
     }
 }
-    
-    
-    
-    
-    
-    
-    
-    
-
-
