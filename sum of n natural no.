@@ -1,12 +1,23 @@
-#include <stdio.h>
-int main()
+#include <stdio.h>  // Include standard input-output header file
+
+int main() // Main function
 {
-    int i, n, sum=0;
-    printf("enter a no. ");
+    int i, n, sum = 0; // Declare integer variables 'i', 'n', and 'sum', initializing 'sum' to 0
+    
+    // Prompt the user to enter a number
+    printf("Enter a number: ");
+    
+    // Read the input number and store it in 'n'
     scanf("%d", &n);
-    for(i=1; i<=n; i++)
+    
+    // Loop from 1 to 'n' to calculate the sum of natural numbers
+    for(i = 1; i <= n; i++)
     {
-      sum+=i; 
+        sum += i; // Add the current value of 'i' to 'sum'
     }
+    
+    // Print the calculated sum
     printf("\nSum = %d", sum);
+    
+    return 0; // Return 0 to indicate successful execution
 }
