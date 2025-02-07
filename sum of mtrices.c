@@ -1,15 +1,12 @@
-#include<stdio.h>  // Include standard input-output header file
-
-int main() // Main function
+#include<stdio.h>  
+int main()
 {
     int A[100][100], B[100][100], i, j, r, c, sum[100][100]; // Declare matrices and variables
 
-    // Prompt the user to enter the number of rows and columns for the first matrix A
     printf("Enter how many rows and columns you want for first matrix A  ");
-    scanf("%d%d", &r, &c); // Read the number of rows and columns
+    scanf("%d%d", &r, &c); 
 
-    // Loop to input elements of matrix A
-    for(i=0; i<r; i++)
+    for(i=0; i<r; i++)   // Loop to input elements of matrix A
     {
         for(j=0; j<c; j++)
         {
