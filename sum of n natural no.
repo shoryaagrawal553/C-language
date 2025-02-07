@@ -17,5 +17,5 @@ int main() // Main function
     // Print the calculated sum
     printf("\nSum = %d", sum);
     
-    return 0; // Return 0 to indicate successful execution
+    return 0;
 }
