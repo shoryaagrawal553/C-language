@@ -5,8 +5,7 @@ int main() // Main function
     int i, n, sum = 0; // Declare integer variables 'i', 'n', and 'sum', initializing 'sum' to 0
     
     printf("Enter a number: ");
-    
-    // Read the input number and store it in 'n'
+ 
     scanf("%d", &n);
     
     // Loop from 1 to 'n' to calculate the sum of natural numbers
