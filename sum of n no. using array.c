@@ -2,7 +2,9 @@
 
 int main() 
 {
-    int n, i, a[1000], sum = 0;  // Declare variables: n for number of inputs, i for loop counter, a for storing numbers, and sum for storing the sum of numbers
+    int n, i, a[1000], sum = 0;  /* Declare variables: n for number of inputs,
+                                     i for loop counter, a for storing numbers, 
+                                     and sum for storing the sum of numbers  */
 
     printf("Enter how many numbers you want to add ");  // Prompt the user to enter the number of inputs
     scanf("%d", &n);  // Read the number of inputs from the user
