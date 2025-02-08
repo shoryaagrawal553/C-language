@@ -1,21 +1,28 @@
 #include <stdio.h>
+
 int main()
 {
-    int choice;
-    printf("\n Enter your choice");
-    scanf("%d", &choice);
+    int choice;  // Declare a variable to store the user's choice
+
+    printf("\n Enter your choice");  // Prompt the user to enter a choice
+    scanf("%d", &choice);  // Read the user's choice
+
+    // Switch statement to handle different choices
     switch(choice)
     {
         case 1:
-        printf("\nMonday");
-        break;
+            printf("\nMonday");  // Print "Monday" if choice is 1
+            break;  // Exit the switch statement
+
         case 2:
-        printf("\nTuesday");
-        break;
+            printf("\nTuesday");  // Print "Tuesday" if choice is 2
+            break;  // Exit the switch statement
+
         case 3:
-        printf("\nWednesday");
-        break;
+            printf("\nWednesday");  // Print "Wednesday" if choice is 3
+            break;  // Exit the switch statement
+
         default:
-        printf("\n You have entered the wrong choice");
+            printf("\n You have entered the wrong choice");  // Print an error message for any other choice
     }
 }
