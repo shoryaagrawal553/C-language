@@ -1,12 +1,16 @@
 #include <stdio.h>
+
 int main()
 {
-    int i,n,table;
-    printf("Enter a no. ");
-    scanf("%d",&n);
+    int i, n, table;  // Declare variables for loop counter, input number, and table value
+
+    printf("Enter a no. ");  // Prompt the user to enter a number
+    scanf("%d", &n);  // Read the input number from the user
+
+    // Loop to calculate and print the multiplication table for the input number
     for(i=1; i<=10; i++)
     {
-    table=n*i;
-    printf("\n%d", table);
+        table = n * i;  // Calculate the current value in the multiplication table
+        printf("\n%d", table);  // Print the current value
     }
 }
