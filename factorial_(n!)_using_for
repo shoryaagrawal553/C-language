@@ -1,6 +1,6 @@
 // Factorial calculation using a for loop
 // Example: 5! = 5 * 4 * 3 * 2 * 1 = 120
-
+ 
 #include <stdio.h>  
  
 int main() 
