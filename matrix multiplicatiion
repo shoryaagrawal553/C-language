@@ -1,6 +1,6 @@
 #include<stdio.h>
  
-int main ()
+int main () 
 {
   // Declare matrices and variables
   int a[100][100], b[100][100], i, j, k, r, c, mul[100][100];
