@@ -2,7 +2,7 @@
 
 // Function prototype for swap
 int swap(int *, int *);
- 
+  
 int main()
 {
     int a, b;  // Declare variables to store the two numbers
