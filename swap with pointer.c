@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 // Function prototype for swap
-int swap(int *, int *);
+int swap(int *, int *); 
     
 int main()
 {
