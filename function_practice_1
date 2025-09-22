@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+ 
 // Function prototypes (declarations)
 void hello(); // Declaring the hello function
 void gb(); // Declaring the gb function
