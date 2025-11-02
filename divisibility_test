@@ -2,7 +2,7 @@
         
 int main()         
 {        
-    // Variable declarations  
+    // Variable declarations   
     float a, b; 
  
     // Input two numbers from the user
