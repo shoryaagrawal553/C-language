@@ -5,7 +5,7 @@
   
 int main() 
 {
-    // Variable declarations
+    // Variable declarations 
     int i, num, f = 1;
 
     // Input the number from the user
