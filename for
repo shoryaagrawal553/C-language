@@ -1,6 +1,6 @@
 #include <stdio.h>
  
-int main()
+int main() 
 {
     // Variable declarations
     int n, i;
