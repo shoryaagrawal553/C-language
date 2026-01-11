@@ -1,5 +1,5 @@
 #include<stdio.h>
- 
+  
 int main() 
 {
     // Declare matrix A and variables for iteration and dimensions
