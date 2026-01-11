@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int main()
+int main() 
 {
     // Declare matrix A and variables for iteration and dimensions
     int A[100][100], i, j, r, c;
