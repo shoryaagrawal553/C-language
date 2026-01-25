@@ -15,7 +15,7 @@ int main()
     
     // Call the simple interest function with the entered values
     si(p, r, t);
-    
+     
     return 0; 
 }
  
