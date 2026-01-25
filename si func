@@ -18,7 +18,7 @@ int main()
     
     return 0; 
 }
-
+ 
 // Function definition for calculating simple interest
 float si(int p, int r, int t)
 {
