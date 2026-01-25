@@ -6,7 +6,7 @@ float si(int, int, int);    // Function declaration for calculating simple inter
 int main() 
 {
     int p, r, t; // Declare integer variables for principle, rate, and time
-
+ 
     // Prompt the user to enter principle, rate, and time
     printf("Enter principle, rate and time ");
     
