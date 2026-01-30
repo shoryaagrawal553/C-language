@@ -2,7 +2,7 @@
     
 int main()       
 {               
-    // Variable declarations  
+    // Variable declarations   
     int i, n, step, temp, a[1000]; 
 
     // Input number of elements in the array from the user
