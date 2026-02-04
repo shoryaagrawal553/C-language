@@ -9,7 +9,7 @@ int main()
     printf("Enter three numbers: ");
     scanf("%d%d%d", &a, &b, &c); 
     
-    // Check if a is greater than b
+    // Check if a is greater than b 
     if(a > b);
     {
         // Check if a is also greater than c
