@@ -7,7 +7,7 @@ int main()
     
     // Prompt the user to enter three numbers
     printf("Enter three numbers: ");
-    scanf("%d%d%d", &a, &b, &c);
+    scanf("%d%d%d", &a, &b, &c); 
     
     // Check if a is greater than b
     if(a > b);
