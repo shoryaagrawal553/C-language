@@ -1,6 +1,6 @@
 #include<stdio.h>
     
-int main()       
+int main()        
 {                
     // Variable declarations    
     int i, n, step, temp, a[1000]; 
